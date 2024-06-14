@@ -2,7 +2,7 @@ import {
     HoverCard,
     HoverCardContent,
     HoverCardTrigger,
-} from "@/components/ui/hover-card"
+} from "@/components/general/hover-card"
 
 interface CardProps {
     src: string,
