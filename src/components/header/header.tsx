@@ -27,7 +27,7 @@ const routeList: RouteProps[] = [
 export const Header = () => {
 
     return (
-        <header className="w-full bg-red-500/70 px-20 flex justify-between items-center h-[10vh] sticky top-0 border-b border-b-neutral-700">
+        <header className="w-full bg-secondary px-20 flex justify-between items-center h-[10vh] sticky top-0 border-b border-b-neutral-700">
                 <a href="#" className="text-4xl font-bold italic">{`<vgarcia />`}</a>
                 <section className="flex items-center gap-16">
                     <div className="flex gap-10 text-lg font-bold">
