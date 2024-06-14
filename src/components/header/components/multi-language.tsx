@@ -12,8 +12,8 @@ export function MenuLanguage() {
 
     return (
         <DropdownMenu>
-            <DropdownMenuTrigger asChild className="">
-                <Button variant="outline" size="icon">
+            <DropdownMenuTrigger asChild>
+                <Button variant="outline" size="icon" className="bg-neutral-100 text-black">
                     <MdOutlineLanguage className="w-full h-full m-1"/>
                     <span className="sr-only">Change Language</span>
                 </Button>
