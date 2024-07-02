@@ -12,3 +12,14 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: #00031E url('/bg-gradient.jpg') center/cover no-repeat fixed;
+}

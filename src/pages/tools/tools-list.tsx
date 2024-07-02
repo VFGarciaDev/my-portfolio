@@ -64,20 +64,20 @@ export const moderateLevel: ListProps[] = [
 ]
 export const learningLevel: ListProps[] = [
     {
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
-        name: "Next.js",
-    },
-    {
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg",
-        name: "Angular",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg",
+        name: "Redux",
     },
     {
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg",
         name: "Sass",
     },
     {
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg",
-        name: "Redux",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg",
+        name: "Angular",
+    },
+    {
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+        name: "Next.js",
     },
     {
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg",
@@ -90,8 +90,8 @@ export const softSkills = [
     "Curiosidade Intelectual",
     "Adaptabilidade",
     "Proatividade",
-    "",
-    "",
-    "",
-    "",
+    "Trabalho em Equipe",
+    "Empatia",
+    "Atenção aos Detalhes",
+    "Inovação",
 ]

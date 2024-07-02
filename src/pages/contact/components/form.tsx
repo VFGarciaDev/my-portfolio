@@ -1,5 +1,6 @@
 import { useForm } from "react-hook-form"
 import "./input.css"
+import { Button } from "@/components/general/button"
 
 const inputFields = [
     {
@@ -46,7 +47,9 @@ export const ContactForm = () => {
                 />
                 {errors.textBody && <p role="alert">{errors.textBody.message?.toString()}</p>}
             </div>
-            <input type="submit" />
+            <Button className="h-12" asChild>
+                <input className="submit" type="submit" value="Enviar" />
+            </Button>
         </form>
     )
 }
