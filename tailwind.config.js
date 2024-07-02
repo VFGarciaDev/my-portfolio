@@ -9,17 +9,12 @@ module.exports = {
   ],
   prefix: "",
   theme: {
-    screens: {
-      'mobile': '360px',
-      'tablet': '768px',
-      'desktop': '1024px',
-    },
     container: {
       center: true,
-      padding: "1.25rem",
-      screens: {
-        "xl": "1280px",
-      },
+      padding: "1.5rem",
+      // screens: {
+      //   "2xl": "1400px",
+      // },
     },
     extend: {
       colors: {
