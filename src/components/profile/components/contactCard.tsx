@@ -1,21 +1,25 @@
+import { ElementType } from "react"
+
 type ContactProps = {
-    icon: React.ReactNode,
-    src: string,
+    icon: ElementType,
+    src?: string,
     name: string,
     info: string,
 }
 
-export const ContactCard = ({icon, src, name, info}:ContactProps) => {
+export const ContactCard = ({ icon: Icon, src, name, info }: ContactProps) => {
 
     return (
-        <section className="flex items-center gap-2">
-            <a className="bg-neutral-500 p-1 rounded-lg" href={src}>
-                {icon}
-            </a>
+        <a 
+        className="flex items-center gap-2 hover:drop-shadow-[0_0_10px_rgba(255,255,255)]"
+        href={src}
+        target="_blank"
+        rel="noopener noreferrer">
+            <Icon size={36} />
             <div>
                 <h2 className="font-semibold">{name}</h2>
                 <p className="text-sm">{info}</p>
             </div>
-        </section>
+        </a>
     )
 }

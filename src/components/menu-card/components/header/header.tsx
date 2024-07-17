@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom"
 export const pages = [
     {
         name: "About Me",
-        route: "/about",
+        route: "/",
     },
     {
         name: "Portfolio",
