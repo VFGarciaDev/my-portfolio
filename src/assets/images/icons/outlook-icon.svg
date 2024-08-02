@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <path d="M 203.403 108.868 L 229.403 108.868 L 229.403 222.323 C 229.403 227.545 225.523 231.777 220.737 231.777 L 82.071 231.777 C 77.285 231.777 73.403 227.545 73.403 222.323 L 73.403 193.959" fill="#001861" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+  <polyline points="99.403 190.596 99.403 22.777 213.129 22.777 213.129 119.35" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" fill="#0000B9"/>
+  <rect y="61.596" width="121.333" height="132.363" rx="8" fill="#001861" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" x="21.403"/>
+  <circle cx="56" cy="88" r="24" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" transform="matrix(1.083333, 0, 0, 1.181818, 21.405504, 23.779358)"/>
+  <line x1="226.436" y1="229.438" x2="142.737" y2="163.492" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+  <line x1="229.403" y1="108.868" x2="145.403" y2="164.295" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+</svg>
