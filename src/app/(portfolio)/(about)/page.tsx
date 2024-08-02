@@ -42,8 +42,8 @@ export default function Home() {
             Além da programação, gosto de jogar videogame, ver filmes e praticar atividade física. Treino Jiu-Jitsu, esporte que escolhi pelo desafio, autodefesa e vontade de competir.
           </p>
           <blockquote className="my-4 p-2 rounded-md text-nowrap flex flex-col italic bg-neutral-400/15">
-            <p>"mente sã em corpo são"</p>
-            <p className="ml-5 leading-none">- "Mens sana in corpore sano"</p>
+            <p>{"mente sã em corpo são"}</p>
+            <p className="ml-5 leading-none">{`- "Mens sana in corpore sano"`}</p>
             <p className="self-end">Juvenal</p>
           </blockquote>
         </div>
